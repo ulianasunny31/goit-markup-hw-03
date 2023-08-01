@@ -1,0 +1,256 @@
+:root {
+  --primary-font: Roboto, sans-serif;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+  --white: #ffffff;
+  --ocean: #404bbf;
+  --iris: #4d5ae5;
+  --cloud: #f4f4fd;
+  --green: #31d0aa;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --dairy: #fcfcfc;
+}
+
+/* Main styles */
+body {
+  font-family: var(--primary-font);
+  color: #434455;
+  background-color: var(--white);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
+footer {
+  background-color: var(--navy-blue);
+}
+
+.p-footer {
+  color: var(--cloud);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+footer .span-logo {
+  color: var(--cloud);
+}
+
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+
+.logo {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+header .span-logo {
+  color: var(--navy-blue);
+}
+
+.navigation .nav-link {
+  color: var(--navy-blue);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.navigation .link:hover,
+.navigation .link:focus {
+  color: var(--ocean);
+}
+
+address {
+  font-style: normal;
+}
+
+.adress-info {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.adress-info:hover,
+.adress-info:focus {
+  color: var(--ocean);
+}
+
+/**
+  |============================
+  | TITLE SECTION
+  |============================
+*/
+
+.title-section {
+  background-color: var(--navy-blue);
+  letter-spacing: 0.02em;
+}
+.main-title {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+}
+
+.button {
+  background-color: var(--iris);
+  color: var(--white);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button {
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--ocean);
+}
+
+/**
+  |============================
+  | QUALITIES SECTION
+  |============================
+*/
+
+.qualities-titles {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--navy-blue);
+  line-height: 1.2;
+}
+
+.qualities-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/**
+  |============================
+  | SERVICES SECTION
+  |============================
+*/
+
+.services-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  color: var(--navy-blue);
+  line-height: 1.11;
+}
+
+/**
+  |============================
+  | TEAM-SECTION
+  |============================
+*/
+
+.team-section {
+  background-color: var(--cloud);
+}
+
+.team-title {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  color: var(--navy-blue);
+  line-height: 1.11;
+}
+
+.team-list-item {
+  background-color: var(--white);
+}
+.team-list-name {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--navy-blue);
+  line-height: 1.2;
+}
+
+.team-list-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/**
+  |============================
+  | PORTFOLIO FILE
+  |============================
+*/
+
+.port-buttons {
+  cursor: pointer;
+}
+.port-buttons {
+  background-color: var(--cloud);
+  color: var(--iris);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+.port-buttons:hover,
+.port-buttons:focus {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+
+/* PICTURE LINKS */
+
+.pictures-titles {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--navy-blue);
+  line-height: 1.2;
+}
+
+.pictures-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
