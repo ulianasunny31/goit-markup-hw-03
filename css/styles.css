@@ -47,7 +47,20 @@ ol {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /**
@@ -95,7 +108,7 @@ header .span-logo {
 .head-container {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   height: 72px;
   background-color: var(--white);
   border: 1px solid var(--cornflower);
@@ -103,10 +116,7 @@ header .span-logo {
 
 header .navigation {
   display: flex;
-  margin-left: 156px;
-  margin-right: 332px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-right: auto;
 }
 
 .navigation .nav-list {
@@ -134,9 +144,6 @@ address {
 .adress-list {
   display: flex;
   gap: 40px;
-  margin-right: 156px;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .adress-info {
@@ -158,11 +165,20 @@ address {
   | TITLE SECTION
   |============================
 */
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin: 0 auto;
+}
 
 .title-section {
   background-color: var(--navy-blue);
   letter-spacing: 0.02em;
 }
+
 .main-title {
   color: var(--white);
   text-align: center;
@@ -170,9 +186,11 @@ address {
   line-height: 1.07;
   letter-spacing: 0.02em;
   font-weight: 700;
+  padding-bottom: 48px;
+  width: 496px;
 }
 
-.button {
+.btn {
   background-color: var(--iris);
   color: var(--white);
   font-family: inherit;
@@ -180,12 +198,16 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
-.button {
+
+.btn {
   cursor: pointer;
 }
-.button:hover,
-.button:focus {
+.btn:hover,
+.btn:focus {
   background-color: var(--ocean);
 }
 
@@ -195,12 +217,30 @@ address {
   |============================
 */
 
+.qual-container {
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.qualities-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.qualities-list-item {
+  height: 104px;
+  width: calc((100-72) / 4);
+}
+
 .qualities-titles {
   font-size: 20px;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: var(--navy-blue);
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .qualities-p {
