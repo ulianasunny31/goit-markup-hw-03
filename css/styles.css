@@ -46,6 +46,10 @@ ol {
   text-decoration: none;
 }
 
+.container {
+  width: 1158px;
+}
+
 /**
   |============================
   | FOOTER
@@ -81,10 +85,34 @@ footer .span-logo {
   font-style: normal;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 
 header .span-logo {
   color: var(--navy-blue);
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 72px;
+  background-color: var(--white);
+  border: 1px solid var(--cornflower);
+}
+
+header .navigation {
+  display: flex;
+  margin-left: 156px;
+  margin-right: 332px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.navigation .nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .navigation .nav-link {
@@ -101,6 +129,14 @@ header .span-logo {
 
 address {
   font-style: normal;
+}
+
+.adress-list {
+  display: flex;
+  gap: 40px;
+  margin-right: 156px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .adress-info {
