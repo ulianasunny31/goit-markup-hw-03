@@ -336,6 +336,7 @@ address {
   background-color: var(--white);
   width: calc((100%-3 * 24px) / 4);
   padding-bottom: 32px;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-list-name {
@@ -365,10 +366,15 @@ address {
   |============================
 */
 
+.buttons-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 96px 0 72px;
+}
+
 .port-buttons {
   cursor: pointer;
-}
-.port-buttons {
   background-color: var(--cloud);
   color: var(--iris);
   font-family: inherit;
@@ -376,15 +382,30 @@ address {
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-weight: 500;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 
 .port-buttons:hover,
 .port-buttons:focus {
   background-color: var(--ocean);
   color: var(--white);
+  border: transparent;
 }
 
 /* PICTURE LINKS */
+
+.picture-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+
+.picture-list-item {
+  width: calc((100%-6 * 24px) / 9);
+}
 
 .pictures-titles {
   font-size: 20px;
@@ -392,6 +413,7 @@ address {
   font-weight: 500;
   color: var(--navy-blue);
   line-height: 1.2;
+  margin: 32px 0 8px 16px;
 }
 
 .pictures-p {
@@ -400,4 +422,10 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  margin-bottom: 32px;
+  margin-left: 16px;
+}
+
+.p-list-container {
+  border: 1px solid var(--cornflower);
 }
