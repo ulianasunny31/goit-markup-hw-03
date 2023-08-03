@@ -80,14 +80,6 @@ img {
   padding: 100px 0;
 }
 
-.foot-container {
-  height: 312px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-
 .p-footer {
   color: var(--cloud);
   font-size: 16px;
@@ -95,7 +87,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   height: 72px;
-  width: 264px;
+  max-width: 264px;
 }
 footer .span-logo {
   color: var(--cloud);
@@ -149,10 +141,6 @@ footer .span-logo {
   gap: 40px;
 }
 
-.nav-list-item {
-  padding: 24px 0;
-}
-
 .nav-list-item:last-child {
   margin-right: 0;
 }
@@ -163,6 +151,7 @@ footer .span-logo {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
+  padding: 24px 0;
 }
 
 .navigation .link:hover,
@@ -372,6 +361,8 @@ address {
   color: var(--navy-blue);
   line-height: 1.2;
   margin-bottom: 38px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-list-p {
@@ -390,7 +381,7 @@ address {
 */
 
 .buttons {
-  padding: 96px 0 100px;
+  padding: 96px 0 120px 0;
 }
 
 .buttons-list {
@@ -432,7 +423,7 @@ address {
 }
 
 .picture-list-item {
-  width: calc((100%-2 * 24px) / 9);
+  width: calc((100%-2 * 24px) / 3);
 }
 
 .pictures-titles {
@@ -455,6 +446,6 @@ address {
 
 .p-list-container {
   border: 1px solid var(--cornflower);
-  padding: 31px 16px;
+  padding: 32px 16px;
   border-top: none;
 }
