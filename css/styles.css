@@ -48,7 +48,8 @@ ol {
 
 .container {
   max-width: 1158px;
-  border: 1px solid red;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 img {
@@ -78,12 +79,23 @@ footer {
   background-color: var(--navy-blue);
 }
 
+.foot-container {
+  height: 312px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
 .p-footer {
   color: var(--cloud);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 16px;
+  height: 72px;
+  width: 264px;
 }
 footer .span-logo {
   color: var(--cloud);
@@ -111,13 +123,14 @@ header .span-logo {
   color: var(--navy-blue);
 }
 
+header {
+  border-bottom: 1px solid var(--cornflower);
+}
+
 .head-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 72px;
-  background-color: var(--white);
-  border: 1px solid var(--cornflower);
 }
 
 header .navigation {
@@ -264,6 +277,10 @@ address {
   |============================
 */
 
+.serv-container {
+  margin: 0 auto;
+}
+
 .services-title {
   text-align: center;
   text-transform: capitalize;
@@ -272,13 +289,27 @@ address {
   font-weight: 700;
   color: var(--navy-blue);
   line-height: 1.11;
+  margin-bottom: 72px;
 }
 
+.services-list {
+  display: flex;
+  gap: 24px;
+}
+
+.services-list-item {
+  width: calc((100%-2 * 24px) / 3);
+}
 /**
   |============================
   | TEAM-SECTION
   |============================
 */
+
+.team-container {
+  margin-top: 120px;
+  padding: 120px 0;
+}
 
 .team-section {
   background-color: var(--cloud);
@@ -292,17 +323,30 @@ address {
   font-weight: 700;
   color: var(--navy-blue);
   line-height: 1.11;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .team-list-item {
   background-color: var(--white);
+  width: calc((100%-3 * 24px) / 4);
+  padding-bottom: 32px;
 }
+
 .team-list-name {
   font-size: 20px;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: var(--navy-blue);
   line-height: 1.2;
+  margin: 32px 0 8px;
+  display: flex;
+  justify-content: center;
 }
 
 .team-list-p {
@@ -311,6 +355,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  display: flex;
+  justify-content: center;
 }
 
 /**
