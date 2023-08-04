@@ -278,9 +278,6 @@ address {
   | SERVICES SECTION
   |============================
 */
-.services-section {
-  height: 412px;
-}
 
 .serv-container {
   margin: 0 auto;
