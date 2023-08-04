@@ -201,7 +201,6 @@ address {
   background-color: var(--navy-blue);
   letter-spacing: 0.02em;
   padding: 188px 0;
-  height: 600px;
 }
 
 .main-title {
@@ -245,11 +244,6 @@ address {
 
 .qualities-section {
   padding: 120px 0;
-  height: 104px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin: 0 auto;
 }
 
 .qualities-list {
@@ -291,6 +285,7 @@ address {
 .serv-container {
   margin: 0 auto;
   align-content: center;
+  padding-bottom: 120px;
 }
 
 .services-title {
@@ -320,7 +315,7 @@ address {
 
 .team-section {
   background-color: var(--cloud);
-  padding: 120px 0;
+  padding-bottom: 120px;
 }
 
 .team-title {
