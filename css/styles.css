@@ -279,10 +279,13 @@ address {
   |============================
 */
 
+.services-section {
+  padding-bottom: 120px;
+}
+
 .serv-container {
   margin: 0 auto;
   align-content: center;
-  padding-bottom: 120px;
 }
 
 .services-title {
@@ -340,7 +343,7 @@ address {
 }
 
 .t-list-container {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 
 .team-list-name {
@@ -369,8 +372,8 @@ address {
   |============================
 */
 
-.port-container {
-  padding: 90px 0 120px 0;
+.buttons {
+  padding: 96px 0 120px 0;
 }
 
 .buttons-list {
@@ -408,7 +411,6 @@ address {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-  margin-bottom: 120px;
 }
 
 .picture-list-item {
