@@ -313,6 +313,7 @@ address {
 .team-section {
   background-color: var(--cloud);
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .team-title {
